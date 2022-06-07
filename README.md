@@ -41,3 +41,21 @@ To get full details about endpoints go to
 ```
 http://localhost:80/docs
 ```
+
+## Technologies Used
+
+- Python
+- Poetry
+- FastAPI
+- Redis
+- RQ
+- Pillow
+- Pytest
+- Git
+- GitHub
+- Docker
+- Docker Compose
+
+## Authors
+
+- [@AndrejTsvetkov](https://www.github.com/AndrejTsvetkov)
