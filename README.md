@@ -32,7 +32,7 @@ http://localhost:80/
 |-------------|-----------------------|---------------------------------------------------|---------------------------------|
 | POST        | /tasks/               | To create a task to resize an image               | Task information (UUID, status) | 
 | GET         | /tasks/{job_id}       | To get information about job with UUID = `job_id` | Task information (UUID, status) | 
-| GET         | /tasks/{job_id}/image | To get information about your account             | Resized image**                 |
+| GET         | /tasks/{job_id}/image | To get resized image                              | Resized image**                 |
 
 ** Make sure that you specify the desired resolution in the `size` query parameter ('32', '64', 'original'), otherwise
 the service will return you an image with 32x32 resolution.
